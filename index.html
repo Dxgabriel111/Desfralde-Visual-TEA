@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desfralde Visual TEA — +120 cartões visuais de desfralde pra crianças autistas</title>
+<meta name="description" content="Kit pra imprimir com sequências visuais do xixi e do cocô, cartões de comunicação, história social e Guia da Mãe. Feito pra crianças autistas que aprendem vendo.">
+<meta property="og:title" content="Desfralde Visual TEA — +120 cartões visuais pra imprimir">
+<meta property="og:image" content="assets/1-kit-flatlay.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+<!-- META PIXEL: cole aqui o código base do seu Pixel (fbq('init', 'SEU_ID'); fbq('track', 'PageView');) -->
+<!-- UTMIFY: cole aqui o script do pixel da Utmify -->
+
+<style>
+:root{--navy:#23395F;--ink:#26303B;--muted:#5D6B7A;--teal:#2FA89A;--teal-l:#E7F6F4;--sky:#EAF5FC;--sun:#FFF4DC;
+  --cta:#1FAF6B;--cta-d:#168A53;--red:#E05555;--line:#E3E8ED;--card:#fff;--bg:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3,.price,.sticky b{font-family:'Space Grotesk',Inter,sans-serif}
+.wrap{max-width:600px;margin:0 auto;padding:0 18px}
+section{padding:44px 0}
+.sticky{position:sticky;top:0;z-index:50;background:var(--navy);color:#fff;text-align:center;font-size:14px;padding:9px 12px;line-height:1.3}
+.sticky b{color:#FFD54A;font-size:16px;letter-spacing:.5px}
+.kicker{display:inline-block;background:var(--teal-l);color:var(--teal);font-weight:700;font-size:12.5px;letter-spacing:1px;text-transform:uppercase;padding:6px 12px;border-radius:30px}
+h1{font-size:clamp(30px,8vw,40px);line-height:1.08;margin:14px 0 12px;color:var(--navy)}
+h1 em{font-style:normal;color:var(--teal)}
+h2{font-size:clamp(25px,6.5vw,31px);line-height:1.15;margin:0 0 16px;color:var(--navy)}
+h3{font-size:18.5px;line-height:1.25;margin:0 0 4px;color:var(--navy)}
+.lead{font-size:18.5px;color:var(--muted);margin:0 0 18px}
+.hero{padding-top:28px;background:linear-gradient(180deg,var(--sky) 0%,#fff 70%)}
+.hero img{border-radius:18px;box-shadow:0 18px 40px rgba(35,57,95,.18);margin:6px 0 22px}
+.btn{display:block;width:100%;text-align:center;background:var(--cta);color:#fff;text-decoration:none;font:700 19px/1.2 'Space Grotesk',Inter,sans-serif;
+  letter-spacing:.3px;padding:19px 18px;border-radius:14px;box-shadow:0 6px 0 var(--cta-d),0 14px 26px rgba(31,175,107,.35);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px)} .btn:active{transform:translateY(3px);box-shadow:0 2px 0 var(--cta-d)}
+.sub-cta{text-align:center;font-size:13.5px;color:var(--muted);margin:12px 0 0}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}
+.facts div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:14px;line-height:1.3;color:var(--muted)}
+.facts b{display:block;font:700 20px 'Space Grotesk',sans-serif;color:var(--navy)}
+.dor{background:#FBFCFD}
+.x{list-style:none;padding:0;margin:0 0 22px}
+.x li{position:relative;padding:10px 0 10px 36px;border-bottom:1px solid var(--line)}
+.x li:before{content:'✕';position:absolute;left:4px;top:9px;width:22px;height:22px;border-radius:50%;background:#FDECEC;color:var(--red);font-weight:700;font-size:12px;display:flex;align-items:center;justify-content:center}
+.truth{background:var(--navy);color:#fff;border-radius:18px;padding:22px 20px;margin-top:8px}
+.truth h3{color:#FFD54A;font-size:22px;margin-bottom:8px}
+.truth p{margin:0;color:#DCE5F0}
+.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:18px 0}
+.step{position:relative;background:#fff;border:3px solid #4A90D9;border-radius:12px;text-align:center;padding:6px 4px 8px}
+.step span{position:absolute;top:4px;left:5px;width:20px;height:20px;border-radius:50%;background:#4A90D9;color:#fff;font:700 12px/20px Inter}
+.step svg{width:100%;height:auto}
+.step b{display:block;font-size:10.5px;line-height:1.15;letter-spacing:.2px}
+.why{display:grid;gap:12px;margin-top:18px}
+.why div{background:var(--teal-l);border-radius:14px;padding:14px 16px}
+.why b{color:var(--teal)}
+.item{display:grid;grid-template-columns:86px 1fr;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px;margin-bottom:12px;
+  box-shadow:0 4px 12px rgba(35,57,95,.05);transition:transform .2s}
+.item:hover{transform:translateY(-3px)}
+.ic{width:86px;height:72px;background:var(--sky);border-radius:12px}
+.item p{margin:0;font-size:15.5px;color:var(--muted);line-height:1.45}
+.bonus{background:var(--sun)}
+.bcard{background:#fff;border-radius:16px;padding:16px;margin-bottom:14px;box-shadow:0 6px 18px rgba(179,107,0,.08);border:1px solid #F4E3BF}
+.bcard .tag{display:inline-block;background:#F5A623;color:#fff;font-weight:700;font-size:12px;letter-spacing:1px;padding:4px 10px;border-radius:20px}
+.bcard h3{margin-top:8px}
+.bcard p{margin:4px 0 0;font-size:15.5px;color:var(--muted)}
+.bcard .val{font-size:14px;color:var(--muted);margin-top:6px}
+.bcard .val s{color:var(--red)}
+.bcard img{border-radius:12px;margin-top:12px}
+.free{text-align:center;font:700 20px 'Space Grotesk',sans-serif;color:var(--navy);margin:8px 0 0}
+.offer{background:linear-gradient(180deg,#fff,var(--sky))}
+.pcard{background:#fff;border:3px solid var(--cta);border-radius:22px;padding:24px 20px;box-shadow:0 20px 40px rgba(35,57,95,.14);position:relative}
+.pcard .badge{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--cta);color:#fff;font:700 13px Inter;letter-spacing:1px;padding:6px 14px;border-radius:30px;white-space:nowrap}
+.pcard h3{text-align:center;font-size:21px;margin:8px 0 14px}
+.pcard img{border-radius:12px;margin-bottom:14px}
+.ok{list-style:none;padding:0;margin:0 0 18px}
+.ok li{position:relative;padding:6px 0 6px 30px;font-size:15.5px;line-height:1.4}
+.ok li:before{content:'✓';position:absolute;left:0;top:6px;width:21px;height:21px;border-radius:50%;background:#E3F7EC;color:var(--cta);font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.from{text-align:center;color:var(--muted);margin:0} .from s{color:var(--red)}
+.price{text-align:center;font-size:62px;font-weight:700;color:var(--navy);line-height:1;margin:4px 0}
+.price small{font-size:26px;vertical-align:super}
+.pay{text-align:center;font-size:14px;color:var(--muted);margin:0 0 18px}
+.trust{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--muted)}
+.trust span:before{content:'●';color:var(--cta);margin-right:5px}
+.guarantee{display:grid;grid-template-columns:96px 1fr;gap:16px;align-items:center}
+.selo{width:96px;height:96px}
+.guarantee p{margin:0;color:var(--muted);font-size:15.5px}
+.fit{display:grid;gap:12px}
+.fit div{border-radius:14px;padding:14px 16px}
+.fit .y{background:#EAF8F0} .fit .n{background:#FDF0F0}
+.fit ul{margin:6px 0 0;padding-left:20px;font-size:15.5px}
+details{border:1px solid var(--line);border-radius:12px;margin-bottom:10px;background:#fff;overflow:hidden}
+summary{cursor:pointer;list-style:none;padding:15px 44px 15px 16px;font-weight:600;position:relative;color:var(--navy)}
+summary::-webkit-details-marker{display:none}
+summary:after{content:'+';position:absolute;right:16px;top:12px;font:700 22px Inter;color:var(--teal)}
+details[open] summary:after{content:'–'}
+details p{margin:0;padding:0 16px 16px;color:var(--muted);font-size:15.5px}
+.final{background:var(--navy);color:#fff;text-align:center}
+.final h2{color:#fff} .final p{color:#DCE5F0}
+.final .anchor{font-size:15px;color:#FFD54A;margin-top:14px}
+footer{padding:28px 0 90px;font-size:12.5px;color:#8A97A5;text-align:center;line-height:1.5}
+footer a{color:#8A97A5}
+.float{position:fixed;left:12px;right:12px;bottom:12px;z-index:40;display:none}
+.float .btn{padding:15px;font-size:17px}
+@media (min-width:700px){.float{display:none!important}}
+</style>
+</head>
+<body>
+
+<div class="sticky">Preço de lançamento: <b>R$19,90</b> · termina em <b id="timer">15:00</b></div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+ <div class="wrap">
+  <span class="kicker">Para mães de crianças autistas</span>
+  <h1>+120 Cartões Visuais de Desfralde <em>feitos pra crianças autistas</em></h1>
+  <p class="lead">Imprima hoje, cole no banheiro e deixe seu filho <b>ver</b> cada passo do xixi e do cocô, no ritmo dele e sem pressão.</p>
+  <img src="assets/1-kit-flatlay.webp" alt="Kit Desfralde Visual TEA impresso: capa, poster da sequência do xixi, cartões plastificados e certificado" width="900" height="900" fetchpriority="high">
+  <a class="btn" href="#oferta" data-cta>QUERO O KIT POR R$19,90</a>
+  <p class="sub-cta">PDF pra imprimir em casa · Acesso imediato no e-mail · Pagamento único</p>
+  <div class="facts">
+   <div><b>122 cartões</b>com pictogramas</div>
+   <div><b>5 posters</b>pra parede do banheiro</div>
+   <div><b>Menino e menina</b>em todas as sequências</div>
+   <div><b>Guia da Mãe</b>passo a passo em 15 páginas</div>
+  </div>
+ </div>
+</section>
+
+<!-- ============ DOR ============ -->
+<section class="dor">
+ <div class="wrap">
+  <h2>Você já tentou de tudo e o desfralde não anda?</h2>
+  <ul class="x"><li>O “método dos 3 dias” que funcionou pro filho da vizinha, mas não pro seu</li><li>Adesivo, prêmio, alarme de 20 em 20 minutos</li><li>Vídeo no YouTube, livrinho, musiquinha</li><li>Perguntar “quer fazer xixi?” o dia inteiro e ouvir “não”</li><li>Choro, fuga do banheiro, pavor da descarga</li><li>A culpa de achar que o problema é você</li></ul>
+  <div class="truth">
+   <h3>A verdade é que seu filho não está sendo teimoso.</h3>
+   <p>Usar o banheiro são 12 passos em sequência. Na sua cabeça, eles estão claros. Mas a criança só escuta pedidos soltos, em horários que ela não entende.
+   Muitas crianças no espectro aprendem melhor quando conseguem <b style="color:#fff">ver</b> o processo inteiro, na mesma ordem, todos os dias.</p>
+  </div>
+ </div>
+</section>
+
+<!-- ============ MECANISMO ============ -->
+<section>
+ <div class="wrap">
+  <h2>Quando a sequência fica visível, o banheiro deixa de ser um mistério</h2>
+  <p>Você cola o poster na parede, na altura dos olhos da criança, e em vez de repetir instruções, só aponta o próximo passo.</p>
+  <div class="strip"><div class="step"><span>1</span><svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(42.0,94.0) scale(1)"><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="-6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11.5" y="-31" width="23" height="10" rx="3" fill="#8E5BB5" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-50" width="22" height="23" rx="6" fill="#EF7AA1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="-10.0,-46.0 -15.0,-38.0 -5.0,-36.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-10.0,-46.0 -15.0,-38.0 -5.0,-36.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-5" cy="-36" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="10.0,-46.0 15.0,-38.0 5.0,-36.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="10.0,-46.0 15.0,-38.0 5.0,-36.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="5" cy="-36" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="0" cy="-62" r="12" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-14" cy="-66" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="14" cy="-66" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-11" cy="-68" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="11" cy="-68" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -12 -63 Q -13 -77 0 -76 Q 13 -77 12 -63 Q 7 -71 0 -70.5 Q -7 -71 -12 -63 Z" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="-4" cy="-62.5" r="1.7" fill="#2B2B2B"/><circle cx="4" cy="-62.5" r="1.7" fill="#2B2B2B"/><path d="M -3.5 -56 L 3.5 -56" fill="none" stroke="#2B2B2B" stroke-width="1.8" stroke-linecap="round"/></g><circle cx="69" cy="49" r="2.5" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="75" cy="43" r="3.5" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="90" cy="26" r="15" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><g transform="translate(90.0,30.0) scale(1.3)"><path d="M 0 -9 Q 6.5 -1 6.5 3 A 6.5 6.5 0 0 1 -6.5 3 Q -6.5 -1 0 -9 Z" fill="#F4D03F" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g></svg><b>SINTO VONTADE</b></div><div class="step"><span>2</span><svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(34.0,94.0) scale(1)"><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="-6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11.5" y="-31" width="23" height="10" rx="3" fill="#8E5BB5" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-50" width="22" height="23" rx="6" fill="#EF7AA1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="-10.0,-46.0 -13.0,-37.0 -14.0,-29.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-10.0,-46.0 -13.0,-37.0 -14.0,-29.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-14" cy="-29" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="10.0,-46.0 13.0,-37.0 14.0,-29.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="10.0,-46.0 13.0,-37.0 14.0,-29.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="14" cy="-29" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="0" cy="-62" r="12" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-14" cy="-66" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="14" cy="-66" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-11" cy="-68" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="11" cy="-68" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -12 -63 Q -13 -77 0 -76 Q 13 -77 12 -63 Q 7 -71 0 -70.5 Q -7 -71 -12 -63 Z" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="-4" cy="-62.5" r="1.7" fill="#2B2B2B"/><circle cx="4" cy="-62.5" r="1.7" fill="#2B2B2B"/><path d="M -4.5 -57 Q 0 -52.5 4.5 -57" fill="none" stroke="#2B2B2B" stroke-width="1.8" stroke-linecap="round"/></g><g transform="translate(90.0,94.0) scale(0.95)"><rect x="-15" y="-64" width="30" height="64" rx="2" fill="#C68A4E" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="9" cy="-32" r="2.2" fill="#FFD54A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-8" y="-56" width="16" height="10" rx="2" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><text x="0" y="-48.3" font-family="Andika, sans-serif" font-size="7" font-weight="700" text-anchor="middle" fill="#2B2B2B">WC</text></g><g transform="translate(54.0,56.0) scale(0.7)"><polygon points="0,-4 12,-4 12,-9 22,0 12,9 12,4 0,4" fill="#F5A623" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g></svg><b>VOU AO BANHEIRO</b></div><div class="step"><span>3</span><svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(72.0,94.0) scale(1.15)"><rect x="-15" y="-56" width="30" height="21" rx="3" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-4" y="-59" width="8" height="3.5" rx="1.5" fill="#9AA6B2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-14" y="-52" width="28" height="25" rx="9" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -13 -27 Q -9 -9 -8 -3 L 8 -3 Q 9 -9 13 -27 Z" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-4" width="22" height="4" rx="1.5" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-28" rx="18" ry="6.5" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-28" rx="12.5" ry="4" fill="#8FD3F4" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g><g transform="translate(30.0,48.0) scale(1.2) rotate(-90)"><polygon points="0,-4 12,-4 12,-9 22,0 12,9 12,4 0,4" fill="#F5A623" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g></svg><b>LEVANTO A TAMPA</b></div><div class="step"><span>4</span><svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(48.0,94.0) scale(1)"><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="-6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-12" y="-12" width="24" height="6" rx="2" fill="#8E5BB5" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-50" width="22" height="23" rx="6" fill="#EF7AA1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="-10.0,-46.0 -13.0,-37.0 -14.0,-29.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-10.0,-46.0 -13.0,-37.0 -14.0,-29.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-14" cy="-29" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="10.0,-46.0 13.0,-37.0 14.0,-29.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="10.0,-46.0 13.0,-37.0 14.0,-29.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="14" cy="-29" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="0" cy="-62" r="12" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-14" cy="-66" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="14" cy="-66" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-11" cy="-68" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="11" cy="-68" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -12 -63 Q -13 -77 0 -76 Q 13 -77 12 -63 Q 7 -71 0 -70.5 Q -7 -71 -12 -63 Z" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="-4" cy="-62.5" r="1.7" fill="#2B2B2B"/><circle cx="4" cy="-62.5" r="1.7" fill="#2B2B2B"/><path d="M -4.5 -57 Q 0 -52.5 4.5 -57" fill="none" stroke="#2B2B2B" stroke-width="1.8" stroke-linecap="round"/></g><g transform="translate(92.0,36.0) scale(1.1) rotate(90)"><polygon points="0,-4 12,-4 12,-9 22,0 12,9 12,4 0,4" fill="#F5A623" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g></svg><b>BAIXO A CALÇA</b></div><div class="step"><span>5</span><svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(46.0,50.0) scale(2.1)"><path d="M -14 -8 L 14 -8 L 12 2 Q 5 3 2 9 L -2 9 Q -5 3 -12 2 Z" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="0" cy="-8" r="2.5" fill="#E05555" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g><g transform="translate(94.0,36.0) scale(1.1) rotate(90)"><polygon points="0,-4 12,-4 12,-9 22,0 12,9 12,4 0,4" fill="#F5A623" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g></svg><b>BAIXO A CALCINHA</b></div><div class="step"><span>6</span><svg viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(60.0,94.0) scale(1.35)"><rect x="-15" y="-56" width="30" height="21" rx="3" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-4" y="-59" width="8" height="3.5" rx="1.5" fill="#9AA6B2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-14" y="-52" width="28" height="25" rx="9" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -13 -27 Q -9 -9 -8 -3 L 8 -3 Q 9 -9 13 -27 Z" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-4" width="22" height="4" rx="1.5" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-28" rx="18" ry="6.5" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-28" rx="12.5" ry="4" fill="#8FD3F4" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g><g transform="translate(60.0,58.2) scale(1)"><polyline points="-5.0,-3.0 -6.0,13.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-5.0,-3.0 -6.0,13.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-3.0 6.0,13.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-3.0 6.0,13.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="-7.5" cy="15" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="7.5" cy="15" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-13" y="6" width="26" height="6" rx="2" fill="#8E5BB5" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-24" width="22" height="23" rx="6" fill="#EF7AA1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="-10.0,-20.0 -13.0,-11.0 -14.0,-3.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-10.0,-20.0 -13.0,-11.0 -14.0,-3.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-14" cy="-3" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="10.0,-20.0 13.0,-11.0 14.0,-3.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="10.0,-20.0 13.0,-11.0 14.0,-3.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="14" cy="-3" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="0" cy="-36" r="12" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-14" cy="-40" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="14" cy="-40" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-11" cy="-42" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="11" cy="-42" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -12 -37 Q -13 -51 0 -50 Q 13 -51 12 -37 Q 7 -45 0 -44.5 Q -7 -45 -12 -37 Z" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-7" cy="-32" r="2.4" fill="#F7B2B2"/><circle cx="7" cy="-32" r="2.4" fill="#F7B2B2"/><circle cx="-4" cy="-36.5" r="1.7" fill="#2B2B2B"/><circle cx="4" cy="-36.5" r="1.7" fill="#2B2B2B"/><path d="M -4.5 -31 Q 0 -26.5 4.5 -31" fill="none" stroke="#2B2B2B" stroke-width="1.8" stroke-linecap="round"/></g></svg><b>SENTO NO VASO</b></div></div>
+  <img src="assets/2-kit-banheiro.webp" alt="Poster da sequência do xixi colado na parede ao lado do vaso com redutor e banquinho" width="900" height="1125" loading="lazy" style="border-radius:18px">
+  <div class="why">
+   <div><b>Previsibilidade.</b> A criança sabe o que vem agora e o que vem depois. Menos surpresa, menos crise.</div>
+   <div><b>Menos fala, menos pressão.</b> Você aponta o cartão em vez de perguntar “quer fazer xixi?” pela vigésima vez.</div>
+   <div><b>Comunicação.</b> Quem ainda não fala mostra o cartão “preciso ir ao banheiro”, e você entende na hora.</div>
+  </div>
+ </div>
+</section>
+
+<!-- ============ O QUE VOCE RECEBE ============ -->
+<section style="background:#FBFCFD">
+ <div class="wrap">
+  <h2>Tudo o que vem no Desfralde Visual TEA</h2>
+  <div class="item"><svg class="ic" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(60.0,94.0) scale(1.35)"><rect x="-15" y="-56" width="30" height="21" rx="3" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-4" y="-59" width="8" height="3.5" rx="1.5" fill="#9AA6B2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-14" y="-52" width="28" height="25" rx="9" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -13 -27 Q -9 -9 -8 -3 L 8 -3 Q 9 -9 13 -27 Z" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-4" width="22" height="4" rx="1.5" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-28" rx="18" ry="6.5" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-28" rx="12.5" ry="4" fill="#8FD3F4" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g><g transform="translate(60.0,58.2) scale(1)"><polyline points="-5.0,-3.0 -6.0,13.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-5.0,-3.0 -6.0,13.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-3.0 6.0,13.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-3.0 6.0,13.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="-7.5" cy="15" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="7.5" cy="15" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-13" y="6" width="26" height="6" rx="2" fill="#8E5BB5" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-24" width="22" height="23" rx="6" fill="#EF7AA1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="-10.0,-20.0 -13.0,-11.0 -14.0,-3.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-10.0,-20.0 -13.0,-11.0 -14.0,-3.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-14" cy="-3" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="10.0,-20.0 13.0,-11.0 14.0,-3.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="10.0,-20.0 13.0,-11.0 14.0,-3.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="14" cy="-3" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="0" cy="-36" r="12" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-14" cy="-40" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="14" cy="-40" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-11" cy="-42" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="11" cy="-42" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -12 -37 Q -13 -51 0 -50 Q 13 -51 12 -37 Q 7 -45 0 -44.5 Q -7 -45 -12 -37 Z" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-7" cy="-32" r="2.4" fill="#F7B2B2"/><circle cx="7" cy="-32" r="2.4" fill="#F7B2B2"/><circle cx="-4" cy="-36.5" r="1.7" fill="#2B2B2B"/><circle cx="4" cy="-36.5" r="1.7" fill="#2B2B2B"/><path d="M -4.5 -31 Q 0 -26.5 4.5 -31" fill="none" stroke="#2B2B2B" stroke-width="1.8" stroke-linecap="round"/></g></svg><div><h3>Sequência do xixi em 3 versões</h3><p>Menina, menino sentado e menino em pé. 12 passos cada, em poster de parede e em cartões.</p></div></div><div class="item"><svg class="ic" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(52.0,94.0) scale(1.35)"><rect x="-15" y="-56" width="30" height="21" rx="3" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-4" y="-59" width="8" height="3.5" rx="1.5" fill="#9AA6B2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-14" y="-52" width="28" height="25" rx="9" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -13 -27 Q -9 -9 -8 -3 L 8 -3 Q 9 -9 13 -27 Z" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-4" width="22" height="4" rx="1.5" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-28" rx="18" ry="6.5" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-28" rx="12.5" ry="4" fill="#8FD3F4" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g><g transform="translate(52.0,94.0) scale(1.35)"><rect x="-15" y="-16" width="30" height="5" rx="2" fill="#C68A4E" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-12" y="-12" width="5" height="12" rx="1" fill="#C68A4E" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="7" y="-12" width="5" height="12" rx="1" fill="#C68A4E" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g><g transform="translate(52.0,58.2) scale(1)"><polyline points="-5.0,-3.0 -6.0,13.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-5.0,-3.0 -6.0,13.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-3.0 6.0,13.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-3.0 6.0,13.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="-7.5" cy="15" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="7.5" cy="15" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-13" y="6" width="26" height="6" rx="2" fill="#2F4B7C" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-24" width="22" height="23" rx="6" fill="#4A90D9" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="-10.0,-20.0 -13.0,-11.0 -14.0,-3.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-10.0,-20.0 -13.0,-11.0 -14.0,-3.0" fill="none" stroke="#4A90D9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-14" cy="-3" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="10.0,-20.0 13.0,-11.0 14.0,-3.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="10.0,-20.0 13.0,-11.0 14.0,-3.0" fill="none" stroke="#4A90D9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="14" cy="-3" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="0" cy="-36" r="12" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -12 -37 Q -13 -51 0 -50 Q 13 -51 12 -37 Q 7 -45 0 -44.5 Q -7 -45 -12 -37 Z" fill="#5B3A29" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-7" cy="-32" r="2.4" fill="#F7B2B2"/><circle cx="7" cy="-32" r="2.4" fill="#F7B2B2"/><polyline points="-6.0,-37.0 -4.0,-35.5 -2.0,-37.0" fill="none" stroke="#2B2B2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="2.0,-37.0 4.0,-35.5 6.0,-37.0" fill="none" stroke="#2B2B2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M -3 -31 Q 0 -28.5 3 -31" fill="none" stroke="#2B2B2B" stroke-width="1.8" stroke-linecap="round"/></g><g transform="translate(102.0,28.0) scale(1.0)"><circle cx="0" cy="0" r="13" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="0.0,0.0 0.0,-8.0" fill="none" stroke="#2B2B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="0.0,0.0 6.0,3.0" fill="none" stroke="#2B2B2B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="0" r="1.5" fill="#2B2B2B" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g></svg><div><h3>Sequência do cocô</h3><p>Menina e menino, 10 passos, com banquinho e o passo “espero com calma” pra quem tem medo.</p></div></div><div class="item"><svg class="ic" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(40.0,94.0) scale(1)"><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="-6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11.5" y="-31" width="23" height="10" rx="3" fill="#8E5BB5" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-50" width="22" height="23" rx="6" fill="#EF7AA1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="-10.0,-46.0 -14.0,-39.0 -6.0,-38.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-10.0,-46.0 -14.0,-39.0 -6.0,-38.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-6" cy="-38" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="10.0,-46.0 14.0,-39.0 6.0,-38.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="10.0,-46.0 14.0,-39.0 6.0,-38.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="-38" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="0" cy="-62" r="12" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-14" cy="-66" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="14" cy="-66" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-11" cy="-68" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="11" cy="-68" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -12 -63 Q -13 -77 0 -76 Q 13 -77 12 -63 Q 7 -71 0 -70.5 Q -7 -71 -12 -63 Z" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="-4" cy="-62.5" r="1.7" fill="#2B2B2B"/><circle cx="4" cy="-62.5" r="1.7" fill="#2B2B2B"/><path d="M -4.5 -57 Q 0 -52.5 4.5 -57" fill="none" stroke="#2B2B2B" stroke-width="1.8" stroke-linecap="round"/></g><g transform="translate(40.0,58.0) scale(1)"><rect x="-9" y="-8" width="18" height="14" rx="2" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><text x="0" y="2.5" font-family="Andika, sans-serif" font-size="7" font-weight="700" text-anchor="middle" fill="#2B2B2B">WC</text></g><g transform="translate(94.0,94.0) scale(0.85)"><rect x="-15" y="-64" width="30" height="64" rx="2" fill="#C68A4E" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="9" cy="-32" r="2.2" fill="#FFD54A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-8" y="-56" width="16" height="10" rx="2" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><text x="0" y="-48.3" font-family="Andika, sans-serif" font-size="7" font-weight="700" text-anchor="middle" fill="#2B2B2B">WC</text></g></svg><div><h3>14 cartões de comunicação + chaveiro</h3><p>“Preciso ir ao banheiro”, “está barulhento”, “tenho medo”… pra criança avisar, mesmo sem falar.</p></div></div><div class="item"><svg class="ic" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(40.0,94.0) scale(1)"><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="-6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11.5" y="-31" width="23" height="10" rx="3" fill="#2F4B7C" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-50" width="22" height="23" rx="6" fill="#4A90D9" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="-10.0,-46.0 -14.0,-39.0 -6.0,-38.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-10.0,-46.0 -14.0,-39.0 -6.0,-38.0" fill="none" stroke="#4A90D9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-6" cy="-38" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="10.0,-46.0 14.0,-39.0 6.0,-38.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="10.0,-46.0 14.0,-39.0 6.0,-38.0" fill="none" stroke="#4A90D9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="-38" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="0" cy="-62" r="12" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -12 -63 Q -13 -77 0 -76 Q 13 -77 12 -63 Q 7 -71 0 -70.5 Q -7 -71 -12 -63 Z" fill="#5B3A29" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="-4" cy="-62.5" r="1.7" fill="#2B2B2B"/><circle cx="4" cy="-62.5" r="1.7" fill="#2B2B2B"/><path d="M -4.5 -57 Q 0 -52.5 4.5 -57" fill="none" stroke="#2B2B2B" stroke-width="1.8" stroke-linecap="round"/></g><g transform="translate(92.0,54.0) scale(1.2)"><path d="M 0 -6 Q -12 -12 -22 -8 L -22 14 Q -12 10 0 16 Z" fill="#3BB3A6" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M 0 -6 Q 12 -12 22 -8 L 22 14 Q 12 10 0 16 Z" fill="#3BB3A6" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g></svg><div><h3>História social “Eu uso o banheiro”</h3><p>8 páginas pra ler junto antes e durante o desfralde. Versão menina e versão menino.</p></div></div><div class="item"><svg class="ic" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(28.0,94.0) scale(1)"><g transform="translate(0.0,-30.0) scale(1.2)"><ellipse cx="0" cy="0" rx="20" ry="7" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-1" rx="13" ry="4" fill="#4CAF50" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-4" cy="-3" r="3" fill="#F5A623" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="4" cy="-3" r="3" fill="#E05555" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g></g><g transform="translate(52.0,58.0) scale(0.8)"><polygon points="0,-4 12,-4 12,-9 22,0 12,9 12,4 0,4" fill="#F5A623" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g><g transform="translate(94.0,94.0) scale(1)"><g transform="translate(0.0,0.0) scale(0.72)"><rect x="-15" y="-56" width="30" height="21" rx="3" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-4" y="-59" width="8" height="3.5" rx="1.5" fill="#9AA6B2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-14" y="-52" width="28" height="25" rx="9" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -13 -27 Q -9 -9 -8 -3 L 8 -3 Q 9 -9 13 -27 Z" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-4" width="22" height="4" rx="1.5" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-28" rx="18" ry="6.5" fill="#F4F7FA" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="0" cy="-28" rx="12.5" ry="4" fill="#8FD3F4" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></g></g></svg><div><h3>Hora de tentar, lugares e regras</h3><p>24 cartões pra rotina fixa, escola, casa da vovó e banheiro do shopping.</p></div></div><div class="item"><svg class="ic" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(60.0,94.0) scale(1)"><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-5.0,-24.0 -5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.0,-24.0 5.0,-4.0" fill="none" stroke="#F6C9A2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="-6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="6.5" cy="-2.5" rx="5.5" ry="3" fill="#3A3A3A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11.5" y="-31" width="23" height="10" rx="3" fill="#8E5BB5" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><rect x="-11" y="-50" width="22" height="23" rx="6" fill="#EF7AA1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="-10.0,-46.0 -19.0,-52.0 -13.0,-61.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="-10.0,-46.0 -19.0,-52.0 -13.0,-61.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-13" cy="-61" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><polyline points="10.0,-46.0 19.0,-52.0 13.0,-61.0" fill="none" stroke="#2B2B2B" stroke-width="10.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="10.0,-46.0 19.0,-52.0 13.0,-61.0" fill="none" stroke="#EF7AA1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="13" cy="-61" r="3.3" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="0" cy="-62" r="12" fill="#F6C9A2" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-14" cy="-66" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="14" cy="-66" r="5" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-11" cy="-68" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="11" cy="-68" r="1.8" fill="#F48FB1" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><path d="M -12 -63 Q -13 -77 0 -76 Q 13 -77 12 -63 Q 7 -71 0 -70.5 Q -7 -71 -12 -63 Z" fill="#8A4B22" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="7" cy="-58" r="2.4" fill="#F7B2B2"/><circle cx="-4" cy="-62.5" r="1.7" fill="#2B2B2B"/><circle cx="4" cy="-62.5" r="1.7" fill="#2B2B2B"/><path d="M -3.5 -56 L 3.5 -56" fill="none" stroke="#2B2B2B" stroke-width="1.8" stroke-linecap="round"/></g></svg><div><h3>Sentimentos e recompensas</h3><p>28 cartões pra criança mostrar o que sente e escolher o prêmio antes de ir.</p></div></div><div class="item"><svg class="ic" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg"><polygon points="60.0,24.0 66.9,40.5 84.7,42.0 71.1,53.6 75.3,71.0 60.0,61.7 44.7,71.0 48.9,53.6 35.3,42.0 53.1,40.5" fill="#FFD54A" stroke="#2B2B2B" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg><div><h3>Quadro, trilha, adesivos e certificado</h3><p>Quadro da semana, trilha das 30 estrelas, 60 adesivos e o certificado “Tchau, Fralda!”.</p></div></div>
+  <a class="btn" href="#oferta" data-cta style="margin-top:22px">QUERO TUDO ISSO POR R$19,90</a>
+ </div>
+</section>
+
+<!-- ============ PROVA SOCIAL ============
+  IMPORTANTE: esta seção está ESCONDIDA de propósito (atributo hidden).
+  Só publique com depoimentos REAIS de mães que usaram o material (com autorização).
+  Depoimento inventado é propaganda enganosa (CDC) e derruba a conta de anúncios.
+  Para ativar: substitua os textos abaixo e apague a palavra "hidden".
+-->
+<section hidden>
+ <div class="wrap">
+  <h2>O que as mães estão dizendo</h2>
+  <div class="bcard"><p>“[DEPOIMENTO REAL AQUI]”</p><p class="val"><b>[Nome]</b> · [Cidade – UF] · ★★★★★</p></div>
+  <div class="bcard"><p>“[DEPOIMENTO REAL AQUI]”</p><p class="val"><b>[Nome]</b> · [Cidade – UF] · ★★★★★</p></div>
+  <div class="bcard"><p>“[DEPOIMENTO REAL AQUI]”</p><p class="val"><b>[Nome]</b> · [Cidade – UF] · ★★★★★</p></div>
+ </div>
+</section>
+
+<!-- ============ BONUS ============ -->
+<section class="bonus">
+ <div class="wrap">
+  <h2>E ainda leva 4 bônus</h2>
+  <div class="bcard"><span class="tag">BÔNUS 1</span><h3>Guia da Mãe (15 páginas)</h3>
+   <p>O passo a passo completo em 13 capítulos: sinais de prontidão no TEA, semana zero, rotina de tentativas, medo do cocô, escapes, regressões, escola e parceria com a terapia.</p>
+   <p class="val">Valor: <s>R$47</s></p><img src="assets/3-guia-tablet.webp" alt="Guia da Mãe aberto no tablet e no celular" width="900" height="900" loading="lazy"></div>
+  <div class="bcard"><span class="tag">BÔNUS 2</span><h3>Versão preto e branco</h3>
+   <p>O kit inteiro só em contorno: gasta pouquíssima tinta e ainda vira atividade de pintar junto com a criança.</p><p class="val">Valor: <s>R$17</s></p></div>
+  <div class="bcard"><span class="tag">BÔNUS 3</span><h3>Quadro Primeiro/Depois</h3>
+   <p>“Primeiro banheiro, depois brincar.” A ferramenta mais simples pra destravar a ida ao banheiro sem briga.</p><p class="val">Valor: <s>R$12</s></p></div>
+  <div class="bcard"><span class="tag">BÔNUS 4</span><h3>Checklist Sensorial do Banheiro</h3>
+   <p>14 ajustes pra deixar o banheiro menos assustador: barulho da descarga, assento frio, luz, cheiro, eco e textura do papel.</p><p class="val">Valor: <s>R$12</s></p></div>
+  <p class="free">Tudo isso sai DE GRAÇA junto com o kit hoje.</p>
+ </div>
+</section>
+
+<!-- ============ OFERTA ============ -->
+<section class="offer" id="oferta">
+ <div class="wrap">
+  <div class="pcard">
+   <div class="badge">ACESSO IMEDIATO</div>
+   <h3>Desfralde Visual TEA<br>Kit completo + 4 bônus</h3>
+   <img src="assets/8-combo.webp" alt="Capas do kit e dos materiais complementares" width="1200" height="675" loading="lazy">
+   <ul class="ok">
+    <li>122 cartões e 5 posters (xixi e cocô, menino e menina)</li>
+    <li>Cartões de comunicação + chaveiro</li>
+    <li>História social “Eu uso o banheiro”</li>
+    <li>Quadro da semana, trilha, 60 adesivos e certificado</li>
+    <li>Bônus: Guia da Mãe, versão P&amp;B, Primeiro/Depois e Checklist Sensorial</li>
+   </ul>
+   <p class="from">De <s>R$97</s> por apenas</p>
+   <div class="price"><small>R$</small>19<small>,90</small></div>
+   <p class="pay">à vista no Pix ou parcelado no cartão</p>
+   <a class="btn" href="#checkout" data-cta data-checkout>QUERO MEU KIT AGORA</a>
+   <div class="trust"><span>Garantia de 7 dias</span><span>Acesso vitalício</span><span>Compra segura</span></div>
+  </div>
+ </div>
+</section>
+
+<!-- ============ GARANTIA ============ -->
+<section>
+ <div class="wrap">
+  <div class="guarantee"><svg class="selo" viewBox="0 0 120 120"><circle cx="60" cy="60" r="56" fill="#1FAF6B"/><circle cx="60" cy="60" r="47" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="3 4"/><text x="60" y="58" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="34" fill="#fff">7</text><text x="60" y="80" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="14" fill="#fff">DIAS</text></svg>
+   <div><h3>Risco zero: garantia de 7 dias</h3>
+   <p>Baixe, imprima e use. Se em até 7 dias você achar que não é pra você, é só pedir o reembolso e devolvemos 100% do valor, sem perguntas.</p></div>
+  </div>
+ </div>
+</section>
+
+<!-- ============ PRA QUEM E ============ -->
+<section style="padding-top:0">
+ <div class="wrap">
+  <h2>Pra quem é (e pra quem não é)</h2>
+  <div class="fit">
+   <div class="y"><b>É pra você se:</b><ul>
+    <li>seu filho é autista (com ou sem fala) e o desfralde travou;</li>
+    <li>você quer um jeito visual, previsível e sem pressão;</li>
+    <li>você é terapeuta ou professora e quer material pronto pra usar com as famílias.</li></ul></div>
+   <div class="n"><b>Não é pra você se:</b><ul>
+    <li>você procura um tratamento ou uma promessa de “desfralde em 3 dias”;</li>
+    <li>você quer um produto físico: este é um PDF pra imprimir em casa.</li></ul></div>
+  </div>
+ </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section style="background:#FBFCFD">
+ <div class="wrap">
+  <h2>Perguntas frequentes</h2>
+  <details><summary>Como eu recebo o material?</summary><p>Logo depois da confirmação do pagamento, você recebe no e-mail o acesso aos arquivos em PDF. É só baixar e imprimir em casa ou numa gráfica rápida.</p></details><details><summary>Meu filho não fala. Funciona?</summary><p>Sim. O kit foi pensado pra isso: a sequência é toda visual e os cartões de comunicação e o chaveiro servem justamente pra criança avisar que precisa ir ao banheiro sem precisar falar.</p></details><details><summary>Pra qual idade é?</summary><p>Pra crianças que estão começando ou travadas no desfralde, geralmente entre 2 e 8 anos. No autismo, a idade importa menos que os sinais de prontidão, e o Guia da Mãe explica como observar cada um.</p></details><details><summary>Preciso imprimir colorido?</summary><p>Não. O kit vem também numa versão preto e branco que gasta pouca tinta e ainda pode ser pintada junto com a criança.</p></details><details><summary>É um tratamento? Tem prazo pra desfraldar?</summary><p>Não. É um material de apoio visual para famílias. Ele organiza o processo e deixa tudo mais previsível, mas quem dá o ritmo é a criança. Não substitui o acompanhamento do pediatra ou da equipe terapêutica, e dá pra levar o kit pra terapia e usar junto.</p></details><details><summary>Serve pra menino e pra menina?</summary><p>Sim. As sequências, a história social e os cartões vêm nas duas versões.</p></details><details><summary>Posso imprimir mais de uma vez?</summary><p>Pode. É pra uso da sua família: imprima quantas cópias precisar, inclusive um jogo extra pra escola.</p></details><details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia. Se achar que não é pra você, é só pedir o reembolso dentro desse prazo e devolvemos 100% do valor.</p></details>
+ </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section class="final">
+ <div class="wrap">
+  <h2>Seu filho não precisa de mais pressão. Precisa ver o caminho.</h2>
+  <p>Imprima hoje, cole na parede e comece a Semana Zero ainda esta semana.</p>
+  <a class="btn" href="#checkout" data-cta data-checkout style="margin-top:20px">QUERO O DESFRALDE VISUAL TEA</a>
+  <p class="anchor">R$19,90 hoje: menos que um pacote de fraldas.</p>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  © 2026 Desfralde Visual TEA · Produto digital em PDF, entregue por e-mail.<br>
+  Material educativo de apoio visual para famílias. Não substitui avaliação ou acompanhamento médico e terapêutico.<br>
+  Este site não faz parte do Facebook ou da Meta Platforms, Inc.<br>
+  <a href="#">Termos de uso</a> · <a href="#">Política de privacidade</a> · <a href="#">Contato</a>
+ </div>
+</footer>
+
+<div class="float" id="float"><a class="btn" href="#oferta" data-cta>QUERO O KIT POR R$19,90</a></div>
+
+<script>
+/* ===== CONFIGURE AQUI ===== */
+var CHECKOUT_URL = "";   /* cole o link do checkout da Wiapy, ex.: "https://pay.wiapy.com/xxxx" */
+/* ========================== */
+
+(function () {
+  /* Botões de compra: vão pro checkout (com as UTMs da página) ou rolam até a oferta */
+  var qs = location.search || "";
+  document.querySelectorAll("[data-checkout]").forEach(function (a) {
+    if (CHECKOUT_URL) {
+      a.href = CHECKOUT_URL + (qs ? (CHECKOUT_URL.indexOf("?") > -1 ? "&" : "?") + qs.slice(1) : "");
+    } else {
+      a.href = "#oferta";
+    }
+    a.addEventListener("click", function () {
+      try { if (window.fbq) fbq("track", "InitiateCheckout", { value: 19.90, currency: "BRL" }); } catch (e) {}
+    });
+  });
+
+  /* ViewContent quando a oferta aparece na tela */
+  var sent = false, oferta = document.getElementById("oferta");
+  if ("IntersectionObserver" in window && oferta) {
+    new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (e.isIntersecting && !sent) { sent = true; try { if (window.fbq) fbq("track", "ViewContent", { value: 19.90, currency: "BRL" }); } catch (x) {} }
+      });
+    }, { threshold: .4 }).observe(oferta);
+  }
+
+  /* Timer de 15 minutos por visitante */
+  var KEY = "dvtea_timer_end", end = 0;
+  try { end = parseInt(localStorage.getItem(KEY) || "0", 10); } catch (e) {}
+  if (!end || end < Date.now()) { end = Date.now() + 15 * 60 * 1000; try { localStorage.setItem(KEY, end); } catch (e) {} }
+  var el = document.getElementById("timer");
+  function tick() {
+    var s = Math.max(0, Math.round((end - Date.now()) / 1000));
+    el.textContent = String(Math.floor(s / 60)).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0");
+    if (s > 0) setTimeout(tick, 1000);
+  }
+  tick();
+
+  /* Botão flutuante no celular depois do hero */
+  var fl = document.getElementById("float"), hero = document.querySelector(".hero");
+  window.addEventListener("scroll", function () {
+    var past = window.scrollY > hero.offsetHeight;
+    var nearOffer = oferta.getBoundingClientRect().top < window.innerHeight && oferta.getBoundingClientRect().bottom > 0;
+    fl.style.display = past && !nearOffer ? "block" : "none";
+  }, { passive: true });
+})();
+</script>
+</body>
+</html>
