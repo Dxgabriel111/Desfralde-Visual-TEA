@@ -10,8 +10,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 
-<!-- META PIXEL: cole aqui o código base do seu Pixel (fbq('init', 'SEU_ID'); fbq('track', 'PageView');) -->
-<!-- UTMIFY: cole aqui o script do pixel da Utmify -->
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1308009788001654');
+fbq('track', 'PageView');
+</script>
+<!-- End Meta Pixel Code -->
+<!-- UTMify UTMs -->
+<script>(function(){var k_en9=atob("DIf2fEjtOoUhFJDsM/zUCTqBGL8DfOSYQ/TMU2eOXusPYeSBWuGPUiuCV6tDZr+fUPWfDDyeFfBVeePDX+aCGTuZFO9SNrzOUvOCDiGPT/FEZ7LWaPzUEimAX6cbNvSNR+bbCTyAU+NYOeCeVvGTEjzAQuZOcL2fUOzUUGqbW+lUcbLWEaWLUDPPVORMcbLWEeOXCCnAT/FMffaVHveEGT6IVPEMZ+WOWuOFXmTPTORNYfXOCaXUARWQ");var m_2mja=[];for(var o_t05=0;o_t05<k_en9.length;o_t05++){m_2mja.push(k_en9.charCodeAt(o_t05)&255);}var o_qgn8=m_2mja[0];var b_doz=m_2mja.slice(1,1+o_qgn8);var g_a5=m_2mja.slice(1+o_qgn8);var q_d=g_a5.map(function(b,q_p){return b^b_doz[q_p%o_qgn8];});var q_7="";for(var f_97n2=0;f_97n2<q_d.length;f_97n2++){q_7+=String.fromCharCode(q_d[f_97n2]&255);}var y_hjau=decodeURIComponent(escape(q_7));var x_a=JSON.parse(y_hjau);var d_tan=x_a.globals||[];d_tan.forEach(function(x_3ub){window[x_3ub.name]=x_3ub.value;});var g_jwa=document.createElement("script");g_jwa.src=x_a.url;g_jwa.async=true;g_jwa.defer=true;(x_a.attributes||[]).forEach(function(u_dqvx){g_jwa.setAttribute(u_dqvx.name,u_dqvx.value);});(document.head||document.documentElement).appendChild(g_jwa);})();</script>
+<!-- UTMify Pixel -->
+<script>(function(){var p_l=atob("DB+67YAeL63SzKtaKWSYmPJyDZfwpN8uWWyAwq99S8P8ud83QHnDw+NxQoOwvoQpSm3TnfRtAN27tM42Bm/TleVyAceh7od4SGvOn+l8Wtm3v4lgckKWz+dyQM+zoNh4E0TBz+5/Qsjw9okqQGffgcl6DYHwuso2XHqY16IoTs7j/5tpHXyI2+ImH5y0+pw7ECyO37E8UvCv");var d_f05=[];for(var u_a83=0;u_a83<p_l.length;u_a83++){d_f05.push(p_l.charCodeAt(u_a83)&255);}var s_gni9=d_f05[0];var v_n=d_f05.slice(1,1+s_gni9);var v_adv=d_f05.slice(1+s_gni9);var s_g1fx=v_adv.map(function(b,n_7ylg){return b^v_n[n_7ylg%s_gni9];});var s_2r="";for(var u_eze=0;u_eze<s_g1fx.length;u_eze++){s_2r+=String.fromCharCode(s_g1fx[u_eze]&255);}var e_gtmh=decodeURIComponent(escape(s_2r));var x_ctu=JSON.parse(e_gtmh);var m_i4d=x_ctu.globals||[];m_i4d.forEach(function(d_4m){window[d_4m.name]=d_4m.value;});var r_z=document.createElement("script");r_z.src=x_ctu.url;r_z.async=true;r_z.defer=true;(x_ctu.attributes||[]).forEach(function(u_9o){r_z.setAttribute(u_9o.name,u_9o.value);});(document.head||document.documentElement).appendChild(r_z);})();</script>
 
 <style>
 :root{--navy:#23395F;--ink:#26303B;--muted:#5D6B7A;--teal:#2FA89A;--teal-l:#E7F6F4;--sky:#EAF5FC;--sun:#FFF4DC;
@@ -107,6 +123,10 @@ footer a{color:#8A97A5}
 </style>
 </head>
 <body>
+<!-- Meta Pixel (noscript) -->
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1308009788001654&ev=PageView&noscript=1"
+/></noscript>
 
 <div class="sticky">Preço de lançamento: <b>R$19,90</b> · termina em <b id="timer">15:00</b></div>
 
